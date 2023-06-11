@@ -36,7 +36,7 @@ php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 
 #get laravel from github
-git clone https://github.com/MazBazDev/NoMa.git
+git clone https://github.com/NoMa-Project/panel.git
 cd ./NoMa
 cd ..
 cp -r NoMa /var/www/$sitename
