@@ -38,7 +38,6 @@ mv composer.phar /usr/local/bin/composer
 #get laravel from github
 git clone https://github.com/MazBazDev/NoMa.git
 cd ./NoMa
-git checkout dashboard
 cd ..
 cp -r NoMa /var/www/$sitename
 rm -rf NoMa
