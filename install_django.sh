@@ -12,7 +12,8 @@ read -p "Entrez le nom de votre site: " sitename
 read -p "Entrez le nom de dommaine: " fqnd
 read -p "Entrez le nom de votre projet: " projectname
 read -p "Entrez le nom de la base de données: " db_name
-read -p "Entrez le nom d'utilisateur de la base de données: " db_user read -s -p "Entrez le mot de passe de la base de données: " db_password
+read -p "Entrez le nom d'utilisateur de la base de données: " db_user 
+read -s -p "Entrez le mot de passe de la base de données: " db_password
 #create ssl key and certificate
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/$sitename.key -out /etc/ssl/certs/$sitename.crt
 #enter yourSitename.com when asked common name
